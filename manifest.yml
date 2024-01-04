@@ -1,0 +1,11 @@
+modules:
+  jira:issuePanel:
+    - key: story-genius
+      function: main
+      title: Story Genius
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/3288d364-629d-48ff-b1f0-52eaf46df5c8
