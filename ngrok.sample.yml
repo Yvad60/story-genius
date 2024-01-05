@@ -1,0 +1,7 @@
+# File created to fix NgrokError when running "forge tunnel". More information mentioned here https://community.developer.atlassian.com/t/ngrokerror-when-using-forge-tunnel/75624/12
+# Also check the docs here https://developer.atlassian.com/platform/forge/cli-reference/tunnel/
+
+version: 2
+log_level: debug
+region: us
+authtoken: (you put you ngrok authtoken here. You can get it from here https://dashboard.ngrok.com/get-started/your-authtoken)
