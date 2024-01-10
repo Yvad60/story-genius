@@ -2,6 +2,9 @@
 # This change is mentioned in the atlassian changelog here https://developer.atlassian.com/changelog/#CHANGE-1352
 # Also check the docs here https://developer.atlassian.com/platform/forge/cli-reference/tunnel/
 
+### IMPORTANT UPDATE ###
+#
+# if you are using the latest version of forge (forge version 7.0.0 or higher) check this docs instead https://developer.atlassian.com/platform/forge/tunneling/#providing-credentials-for-ngrok
 
 version: 2
 log_level: debug

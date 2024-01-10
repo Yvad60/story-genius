@@ -12,3 +12,8 @@ To fix this we need to authenticate with `ngrok` and provide our athentication w
 - Check out the `ngrok.sample.yml` for more information.
 - Create a `ngrok.yml` file and Copy the content from `ngrok.sample.yml` (change the `authtoken` with the actual value from the `ngrok` dashboard)
 - When running `forge tunnel` specify the path to your `ngrok` config as `forge tunnel --ngrok-config <path to your ngrok.yml>`
+
+#### Important update
+
+If you are using forge CLI version 7.0.0 or higher. `forge tunnel` command no longer accepts the `--ngrok-config` flag. instead the path to `ngrok` config is passed through `forge settings set ngrok-config-path <file>` command.
+Note that the path to the `ngrok` file has to be absolute. 
